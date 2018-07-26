@@ -1,0 +1,38 @@
+body {
+font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.centred {
+   text-align: center; 
+	padding-top: 50px;
+}
+.colled{
+	align:left;
+}
+
+.btn-contenu {
+	padding: 15px 0 0 15px;
+}
+
+.iconei {
+    padding: 15px 10px 15px 10px;
+}
+
+.box1 {
+	background-color: #5bc9fd;
+	padding-top: 10px;
+}
+.box2 {
+	background-color: #bf473b;
+	padding-top: 10px;
+}
+.box3 {
+	background-color: #a8da82;
+	padding-top: 10px;
+}
+.whited {
+	color:#ffffffd9;
+}
+
+.whited:hover {
+	color:white;
+}
