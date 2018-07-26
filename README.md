@@ -1,1 +1,2 @@
 # cdz
+site internet static
