@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-	"start": "node app.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
@@ -11,9 +11,10 @@
     "express": "~4.16.0",
     "hbs": "~4.0.1",
     "http-errors": "~1.6.2",
-    "morgan": "~1.9.0"
+    "morgan": "~1.9.0",
+    "update-notifier": "^2.5.0"
   },
   "engines": {
-  	"node": "0.12.7"
+    "node": ">=6.11.5"
   }
 }
