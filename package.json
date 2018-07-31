@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node ./bin/www"
   },
+  "main": "www",
   "dependencies": {
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
@@ -15,6 +16,7 @@
     "update-notifier": "^2.5.0"
   },
   "engines": {
-  	"node": "8.11.3"
+    "node": "*",
+    "npm": "*"
   }
 }
