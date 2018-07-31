@@ -630,17 +630,13 @@ section#counter {
     font-family: 'Open Sans', sans-serif;
 }
 #event .event_text {
-    padding: 15px 15px 0;
+    padding: 25px 15px 42px 15px;
     background: #eff0f2;
-    min-height: 325px;
 }
 #event .event_item img {
     width: 100%;
 }
-#event .event_text {
-    padding: 15px 15px 0;
-    width: 100%;
-}
+
 #event .event_text h4 {
     font-size: 18px;
     padding-bottom: 15px;

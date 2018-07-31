@@ -11,6 +11,7 @@ var contactRouter = require('./routes/contact');
 var publicRouter = require('./routes/public');
 var definitionRouter = require('./routes/definition');
 var intervenantRouter = require('./routes/intervenant');
+var datesRouter = require('./routes/dates');
 
 
 var app = express();
@@ -39,6 +40,7 @@ app.use('/contact', contactRouter);
 app.use('/public', publicRouter);
 app.use('/definition', definitionRouter);
 app.use('/intervenant', intervenantRouter);
+app.use('/dates', datesRouter);
 
 
 // catch 404 and forward to error handler
