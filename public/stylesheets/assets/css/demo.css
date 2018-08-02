@@ -323,7 +323,7 @@
     height:100%;
     background-repeat:no-repeat;
     background-size:cover;
-    background-position: center center;
+    background-position: 50% 50%;
 }
 .blur{
   opacity:0;
