@@ -9,11 +9,15 @@ jQuery(document).ready(function () {
 // sidenav navbar nav
     jQuery(".button-collapse").sideNav();
 
-// Counter 
+// Counter - compteur
     jQuery('.statistic-counter').counterUp({
         delay: 100,
         time: 2000
     });
+	
+// Counter - compteur
+$('.number-counter').countToD();
+
 
 // Home slider
     jQuery('.slider').slider({full_width: true});
@@ -44,7 +48,35 @@ jQuery(document).ready(function () {
 
 
 });
+(function($) {
+  $.fn.countToD = function(options) {
+    return this.each(function() {
+      //-- Arrange
+      var FRAME_RATE = 60; // Predefine default frame rate to be 60fps
+      var $el = $(this);
+      var countFrom = parseInt($el.attr('data-count-from'));
+      var countTo = parseInt($el.attr('data-count-to'));
+      var countSpeed = $el.attr('data-count-speed'); // Number increment per second
 
+      //-- Action
+      var rafId;
+      var increment;
+      var currentCount = countFrom;
+      var countAction = function() {              // Self looping local function via requestAnimationFrame
+        if(currentCount > countTo) {              // Perform number incremeant
+          $el.text(Math.floor(currentCount));     // Update HTML display
+          increment = countSpeed / FRAME_RATE;    // Calculate increment step
+          currentCount -= increment;              // Increment counter
+          rafId = requestAnimationFrame(countAction);
+        } else {                                  // Terminate animation once it reaches the target count number
+          $el.text(countTo);                      // Set to the final value before everything stops
+          //cancelAnimationFrame(rafId);
+        }
+      };
+      rafId = requestAnimationFrame(countAction); // Initiates the looping function
+    });
+  };
+}(jQuery));
 
 
 

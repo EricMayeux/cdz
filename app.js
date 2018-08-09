@@ -13,8 +13,19 @@ var definitionRouter = require('./routes/definition');
 var intervenantRouter = require('./routes/intervenant');
 var datesRouter = require('./routes/dates');
 
+//database
+// New Code
+//var mongo = require('mongodb');
+//var monk = require('monk');
+//var db = monk('localhost:27017/userCDZ');
+var mongo = require('mongodb');
+var monk = require('monk');
+var db = monk('localhost:27017/userCDZ');
 
 var app = express();
+
+
+
 
 app.use(express.static('public'));
 app.use('/images', express.static(__dirname + '/images'));
@@ -31,6 +42,15 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+
+
+// makes db accessible to router
+app.use(function(req,res,next){
+    req.db = db;
+    next();
+});
+
 
 // chemins
 app.use('/', indexRouter);
