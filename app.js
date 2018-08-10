@@ -12,6 +12,7 @@ var publicRouter = require('./routes/public');
 var definitionRouter = require('./routes/definition');
 var intervenantRouter = require('./routes/intervenant');
 var datesRouter = require('./routes/dates');
+var principeRouter = require('./routes/principe');
 
 //database
 // New Code
@@ -23,9 +24,6 @@ var monk = require('monk');
 var db = monk('localhost:27017/userCDZ');
 
 var app = express();
-
-
-
 
 app.use(express.static('public'));
 app.use('/images', express.static(__dirname + '/images'));
@@ -61,6 +59,8 @@ app.use('/public', publicRouter);
 app.use('/definition', definitionRouter);
 app.use('/intervenant', intervenantRouter);
 app.use('/dates', datesRouter);
+app.use('/principe', principeRouter);
+
 
 
 // catch 404 and forward to error handler
