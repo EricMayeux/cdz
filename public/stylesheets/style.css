@@ -2,6 +2,16 @@ body {
 font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+.backgroundC {
+	background-image: url(../images/backgroundChien.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 15%;
+    background-repeat: repeat;
+}
+
 .centred {
    text-align: center; 
 	padding-top: 50px;
