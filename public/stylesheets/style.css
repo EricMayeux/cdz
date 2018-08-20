@@ -1,14 +1,22 @@
 body {
 font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+.navPerso {
+max-height: 415px !important;
+}
 
 .backgroundC {
-	background-image: url(../images/backgroundChien.jpg);
-    width: 100%;
+	background-image: url(../images/montagne.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 15%;
+    background-repeat: repeat;
+}
+.backgroundM {
+	background-image: url(../images/montagne.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-repeat: repeat;
 }
 

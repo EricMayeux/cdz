@@ -547,8 +547,9 @@ div#achivement {
     color: #fff;
 }*/
 section#counter {
-    background: url(../../../images/counterbg.jpg) no-repeat scroll top center / cover;
+  /*  background: url(../../../images/counterbg.jpg) no-repeat scroll top center / cover;
     color: #fff;
+	*/
 }
 .counter_img_overlay {
     position: relative;
@@ -1167,9 +1168,10 @@ ul.entry-meta {
 ============================================================*/
 
 .main_counter_area{
-    background: url(../../../images/counterbg.jpg) no-repeat top center;
+    /*background: url(../../../images/counterbg.jpg) no-repeat top center;
     background-size: cover;
     overflow: hidden;
+	*/
 }
 .main_counter_area .main_counter_content{
     padding-top: 30px;
@@ -1178,9 +1180,10 @@ ul.entry-meta {
     background: #d8c1b1cc;
     padding-top: 25px;
     height: 220px;
-    color: #696565 !important;
+    color: #fbffff !important;
     font-weight: 650 !important;
     font-size: 28px;
+	 box-shadow: 3px 7px 20px 0px black
 }
 .main_counter_area .main_counter_content .single_counter i{
 }
