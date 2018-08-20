@@ -629,7 +629,8 @@ section#counter {
     font-family: 'Open Sans', sans-serif;
 }
 #event .event_text {
-    padding: 25px 15px 42px 15px;
+    padding: 18px 6px 0px 6px;
+	height: 325px;
     background: #eff0f2;
 }
 #event .event_item img {
