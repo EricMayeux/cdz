@@ -370,6 +370,24 @@
     height: 0;
 	text-shadow: 1px 0 0 #63636380, 1px 3px 0 #63636380, 0 5px 0 #63636380, -1px 4px 0 #63636380, -1px 0 0 #63636380, -1px -1px 0 #63636380, 0 -1px 0 #63636380, 1px -1px 0 #63636380;
 }
+.blurred-container .motto2{
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 600;
+
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
+    text-transform: uppercase;
+    top: 85px;
+    z-index: 3;
+
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 459px;
+    height: 0;
+	text-shadow: 1px 0 0 #63636380, 1px 3px 0 #63636380, 0 5px 0 #63636380, -1px 4px 0 #63636380, -1px 0 0 #63636380, -1px -1px 0 #63636380, 0 -1px 0 #63636380, 1px -1px 0 #63636380;
+}
 .blurred-container .motto .espace-div{
 padding-top: 60px;
 }
@@ -388,9 +406,34 @@ padding-top: 60px;
     .blurred-container .motto{
         font-size: 43px;
         width: 402px;
-        top: 130px;
+		top: 130px;
     }
 
+}
+.blurred-container .motto2 .border{
+    float: left;
+    border: 5px solid #FFFFFF;
+    padding: 0px 0px;
+    text-align: center;
+	box-shadow: 0 4px 5px #63636380, 0 5px 4px #63636380
+}
+.blurred-container .motto2 .no-right-border{
+    border-right: none;
+}
+
+@media (max-width: 768px){
+    .blurred-container .motto2{
+        font-size: 43px;
+        width: 402px;
+		top: 0;
+    }
+
+}
+
+.centred2 {
+    position: absolute;
+    top: 9%;
+    left: 11%;
 }
 .main{
     background-color: #FFFFFF;

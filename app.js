@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
+var indexTBRouter = require('./routes/indexTB');
 var usersRouter = require('./routes/users');
 var contenuRouter = require('./routes/contenu');
 var contactRouter = require('./routes/contact');
@@ -13,6 +14,8 @@ var definitionRouter = require('./routes/definition');
 var intervenantRouter = require('./routes/intervenant');
 var datesRouter = require('./routes/dates');
 var principeRouter = require('./routes/principe');
+var homeRouter = require('./routes/home');
+
 
 //database
 // New Code
@@ -51,7 +54,9 @@ app.use(function(req,res,next){
 
 
 // chemins
-app.use('/', indexRouter);
+app.use('/', homeRouter);
+app.use('/index', indexRouter);
+app.use('/indexTB', indexTBRouter);
 app.use('/users', usersRouter);
 app.use('/contenu', contenuRouter);
 app.use('/contact', contactRouter);
