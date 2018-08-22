@@ -62,6 +62,10 @@ max-height: 415px !important;
 .whited {
 	color:#ffffffd9;
 }
+.pug {
+	background-image: url("../images/pug.jpg");
+
+}
 
 .whited:hover {
 	color:white;

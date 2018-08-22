@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
   	users.find({},{}, function(e, docs){
   	*/	
     res.render('dates', { 
-	  titre0: 'Acceuil',
+	  titre0: 'Sortir',
   	  titre1: 'Date et prix de',
   	  titre2: 'la formation en',
   	  description: 'descritpion formation, présentation'

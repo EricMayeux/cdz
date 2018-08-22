@@ -8,8 +8,8 @@ var mime = require('mime');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', 
-  	{ titre0: 'Team Building',
+  res.render('indexTB', 
+  	{ titre0: 'Sortir',
   	  titre1: 'Team',
   	  titre2: 'Building',
   	  description: 'descritpion formation, présentation',

@@ -8,12 +8,19 @@ var indexRouter = require('./routes/index');
 var indexTBRouter = require('./routes/indexTB');
 var usersRouter = require('./routes/users');
 var contenuRouter = require('./routes/contenu');
+var contenuTBRouter = require('./routes/contenuTB');
 var contactRouter = require('./routes/contact');
+var contactTBRouter = require('./routes/contactTB');
 var publicRouter = require('./routes/public');
+var publicTBRouter = require('./routes/publicTB');
 var definitionRouter = require('./routes/definition');
+var definitionTBRouter = require('./routes/definitionTB');
 var intervenantRouter = require('./routes/intervenant');
+var intervenantTBRouter = require('./routes/intervenantTB');
 var datesRouter = require('./routes/dates');
 var principeRouter = require('./routes/principe');
+var datesTBRouter = require('./routes/datesTB');
+var principeTBRouter = require('./routes/principeTB');
 var homeRouter = require('./routes/home');
 
 
@@ -59,12 +66,19 @@ app.use('/index', indexRouter);
 app.use('/indexTB', indexTBRouter);
 app.use('/users', usersRouter);
 app.use('/contenu', contenuRouter);
+app.use('/contenuTB', contenuTBRouter);
 app.use('/contact', contactRouter);
+app.use('/contactTB', contactTBRouter);
 app.use('/public', publicRouter);
+app.use('/publicTB', publicTBRouter);
 app.use('/definition', definitionRouter);
+app.use('/definitionTB', definitionTBRouter);
 app.use('/intervenant', intervenantRouter);
+app.use('/intervenantTB', intervenantTBRouter);
 app.use('/dates', datesRouter);
+app.use('/datesTB', datesTBRouter);
 app.use('/principe', principeRouter);
+app.use('/principeTB', principeTBRouter);
 
 
 
@@ -81,7 +95,8 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.render('error',{ titre1: 'Centre de',
+      layout: false});
 });
 
 module.exports = app;

@@ -9,7 +9,7 @@ var mime = require('mime');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', 
-  	{ titre0: 'Centre de formation',
+  	{ titre0: 'Sortir',
   	  titre1: 'Centre de',
   	  titre2: 'formation en',
   	  description: 'descritpion formation, présentation'

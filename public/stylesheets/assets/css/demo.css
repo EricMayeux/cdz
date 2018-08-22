@@ -432,8 +432,13 @@ padding-top: 60px;
 
 .centred2 {
     position: absolute;
-    top: 9%;
+    top: 52%;
     left: 11%;
+}
+.centred3 {
+    position: absolute;
+    top: 0%;
+    left: 40%;
 }
 .main{
     background-color: #FFFFFF;
