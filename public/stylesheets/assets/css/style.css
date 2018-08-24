@@ -630,10 +630,11 @@ section#counter {
     font-family: 'Open Sans', sans-serif;
 }
 #event .event_text {
-    padding: 18px 6px 0px 6px;
+    padding: 31px 18px 0px 18px;
 	height: 325px;
     background: #eff0f2;
 }
+
 #event .event_item img {
     width: 100%;
 }
@@ -682,6 +683,7 @@ section#counter {
     overflow: hidden;
 }
 .event_news_text h4 {
+	    padding-top: 5px;
     color: #454444;
     font-size: 18px;
     font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;

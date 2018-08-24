@@ -81,9 +81,19 @@ max-height: 415px !important;
 .r {
 	color: white;
 	padding-top: 10px;
-    line-height: 1.4;
+    line-height: 1.3;
 	text-align: center;
 	font-weight:bold;
+	text-shadow: 1px 0 0 #63636380, 1px 3px 0 #63636380, 0 5px 0 #63636380, -1px 4px 0 #63636380, -1px 0 0 #63636380, -1px -1px 0 #63636380, 0 -1px 0 #63636380, 1px -1px 0 #63636380;
+}
+.r2 {
+	color: white;
+	padding-top: 20px;
+    line-height: 1.4;
+	text-align: justify;
+	font-weight:bold;
+	font-size: 188%;
+	text-shadow: 1px 0 0 #63636380, 1px 3px 0 #63636380, 0 5px 0 #63636380, -1px 4px 0 #63636380, -1px 0 0 #63636380, -1px -1px 0 #63636380, 0 -1px 0 #63636380, 1px -1px 0 #63636380;
 }
 
 .b{
