@@ -391,9 +391,9 @@
 .blurred-container .motto .espace-div{
 padding-top: 60px;
 }
-.blurred-container .motto .border{
+.border{
     float: left;
-    border: 5px solid #FFFFFF;
+    border: 5px solid #ffffffd9;
     padding: 0px 0px;
     text-align: center;
 	box-shadow: 0 4px 5px #63636380, 0 5px 4px #63636380
@@ -431,14 +431,17 @@ padding-top: 60px;
 }
 
 .centred2 {
-    position: absolute;
-    top: 52%;
-    left: 11%;
+	text-shadow: 0 4px 5px #63636380, 0 5px 4px #63636380;
+	text-align: center;
+	text-align: -webkit-center;
+	padding-bottom: 20px;
 }
 .centred3 {
-    position: absolute;
-    top: 0%;
-    left: 42%;
+	text-shadow: 0 4px 5px #63636380, 0 5px 4px #63636380;
+	text-align: center;
+	text-align: -webkit-center;
+	padding-top: 15px;
+	padding-bottom: 10px;
 }
 .main{
     background-color: #FFFFFF;
