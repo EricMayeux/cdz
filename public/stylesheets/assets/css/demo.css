@@ -421,13 +421,49 @@ padding-top: 60px;
     border-right: none;
 }
 
+@media (max-width: 990px){
+    .blurred-container .motto2{
+        font-size: 43px;
+        width: 402px;
+		top: 0;
+    }
+.centred2 h2{
+	text-shadow: 0 4px 5px #63636380, 0 5px 4px #63636380;
+	text-align: center;
+	text-align: -webkit-center;
+	padding-bottom: 20px;
+	font-size: 130%;	
+}
+.centred3 h3{
+	text-shadow: 0 4px 5px #63636380, 0 5px 4px #63636380;
+	text-align: center;
+	text-align: -webkit-center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-size: 130%;
+}
+}
 @media (max-width: 768px){
     .blurred-container .motto2{
         font-size: 43px;
         width: 402px;
 		top: 0;
     }
-
+.centred2 h2{
+	text-shadow: 0 4px 5px #63636380, 0 5px 4px #63636380;
+	text-align: center;
+	text-align: -webkit-center;
+	padding-bottom: 20px;
+	font-size: 24px;
+}
+.centred3 h3{
+	text-shadow: 0 4px 5px #63636380, 0 5px 4px #63636380;
+	text-align: center;
+	text-align: -webkit-center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-size: 24px;
+}
 }
 
 .centred2 {

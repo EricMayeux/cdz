@@ -138,7 +138,7 @@ max-height: 415px !important;
 .positioned {
   position: relative; /* postulat de départ */
   top: 50%; left: 50%; /* à 50%/50% du parent référent */
-  transform: translate(-50%, -40%); /* décalage de 50% de sa propre taille */
+  transform: translate(-50%, -29%); /* décalage de 50% de sa propre taille */
 }
 }
 }
@@ -375,4 +375,37 @@ script {
     transform: translateY(1000px);
     opacity: 0;
   }
+}
+.regard_loup {
+	background-image: url(../images/regard_loup.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat;
+	padding-bottom: 97px;
+}
+.regard_rat {
+	background-image: url(../images/regard_rat.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat;
+	padding-bottom: 40px;
+}
+
+.regard_fourmi{
+	background-image: url(../images/regard_fourmi.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat;
+	padding-bottom: 97px;
+}
+.regard_chevre{
+	background-image: url(../images/regard_chevre.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat;
+	padding-bottom: 97px;
 }
