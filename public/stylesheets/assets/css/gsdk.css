@@ -94,8 +94,8 @@ h1 > .small2, h2 > .small2, h3 > .small2, h1 .> .small2, h2 ..small2, h3 ..small
   line-height: 1.4;
   font-size: 300%;}
   
-  .padBot10 {
-  padding-bottom: 10px !important;
+  .padBot0 {
+  padding-bottom: 0px !important;
   }
 
 .text-primary, .text-primary:hover {

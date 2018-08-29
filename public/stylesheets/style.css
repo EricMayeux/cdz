@@ -68,7 +68,6 @@ max-height: 415px !important;
 }
 
 .borderRond{
-    float: left;
     border: 5px solid #ffffffd9;
     margin-bottom: 16px;
     text-align: center;
@@ -108,6 +107,10 @@ max-height: 415px !important;
 
 .b{
     color: #696565;
+	font-weight:bold;
+	padding-top: 10px;
+	line-height: 1.3;
+	text-align: center;
 }
 .g {
 	color: white !important;
@@ -382,7 +385,7 @@ script {
     background-repeat: no-repeat;
     background-size: cover;
     background-repeat: repeat;
-	padding-bottom: 97px;
+	padding-bottom: 40px;
 }
 .regard_rat {
 	background-image: url(../images/regard_rat.jpg);
@@ -390,7 +393,8 @@ script {
     background-repeat: no-repeat;
     background-size: cover;
     background-repeat: repeat;
-	padding-bottom: 40px;
+	padding-bottom: 25px;
+	padding-top: 10px;
 }
 
 .regard_fourmi{
@@ -399,7 +403,7 @@ script {
     background-repeat: no-repeat;
     background-size: cover;
     background-repeat: repeat;
-	padding-bottom: 97px;
+	padding-bottom: 40px;
 }
 .regard_chevre{
 	background-image: url(../images/regard_chevre.jpg);
@@ -407,5 +411,30 @@ script {
     background-repeat: no-repeat;
     background-size: cover;
     background-repeat: repeat;
-	padding-bottom: 97px;
+	padding-bottom: 40px;
 }
+
+.regard_imagin{
+	background-image: url(../images/regard_crea.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat;
+	padding-bottom: 30px;
+}
+
+.list-group-head{
+    position: relative;
+    display: block;
+    border: 1px solid #dddddd;
+	font-size: 150%;
+	color: #ffffff;
+	text-shadow: 2px 0 0 #63636380, 1px 3px 0 #63636380, 0 5px 0 #63636380, -1px 4px 0 #63636380, -1px 0 0 #63636380, -1px -1px 0 #63636380, 0 -1px 0 #63636380, 1px -1px 0 #63636380;
+}
+
+.justi{
+    text-align: justify;
+	font-size: 70%;
+	line-height: 1.6;
+}
+	
