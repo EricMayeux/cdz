@@ -1189,7 +1189,7 @@ ul.entry-meta {
     padding-top: 30px;
 }
 .main_counter_area .main_counter_content .single_counter{
-    background: #d8c1b1cc;
+    background: rgba(216,193,177,0.8);
     padding-top: 25px;
     height: 220px;
     color: #fbffff !important;

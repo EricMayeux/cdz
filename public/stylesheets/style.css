@@ -209,7 +209,7 @@ max-height: 415px !important;
 }
 .to.dayFormOut {
   color: white;
-  background: #bd0a0075;
+  background: rgba(189,10,0,0.46);
   border-radius: 50%;
 }
 
@@ -218,11 +218,10 @@ max-height: 415px !important;
 background: #429bc5;
 }
 .spanStage {
-background: #58ad5961;
+  background: rgba(88,173,89,0.38);
 }
 .spanFormOut {
-background: #bd0a0075;
-}
+  background: rgba(189,10,0,0.46);}
 .spanStageOut {
 background: rgba(255,235,0,0.32);
 }
