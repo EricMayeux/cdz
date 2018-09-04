@@ -76,9 +76,8 @@ ul {
 }
 .subtitle3 ul {
     margin: 0;
-    padding: 0;
     list-style-type: none;
-	font-size: 70%;
+	font-size: 50%;
 	padding: 0 15px !important;
 }
 a,
@@ -368,7 +367,7 @@ input: -webkit-autofill:focus {
     text-transform: uppercase;
     font-weight: 700;
     padding-bottom: 25px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     color: #696565;
 }
 .wel_header p {
@@ -400,7 +399,7 @@ input: -webkit-autofill:focus {
     font-size: 18px;
     color: #393939;
     transition: 0.7s;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 #welcome .item_list p {
     font-size: 14px;
@@ -471,7 +470,7 @@ input: -webkit-autofill:focus {
     font-weight: 700;
     text-transform: uppercase;
     padding-bottom: 15px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     color: #696565;
 }
 #portfolio .portfolio_title p {
@@ -498,7 +497,7 @@ input: -webkit-autofill:focus {
     font-size: 12px;
     padding-top: 8px;
     border-radius: 4px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 #portfolio ul.portfolio_custom_menu li {
     padding: 10px 0px;
@@ -574,12 +573,12 @@ section#counter {
     font-size: 36px;
     font-weight: 700;
     padding-bottom: 10px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 .counter_header p {
     font-size: 16px;
     padding-bottom: 60px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     padding-top: 15px;
 }
 .counter_text {
@@ -603,7 +602,7 @@ section#counter {
     font-size: 32px;
     border-bottom: 1px solid;
     padding-bottom: 10px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
 }
 .counter_text p {
@@ -611,7 +610,7 @@ section#counter {
     text-transform: uppercase;
     font-weight: 400;
     padding-top: 10px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     color: #ffffff;
     margin-top: 10px;
 }
@@ -631,7 +630,7 @@ section#counter {
     font-weight: 700;
     padding-bottom: 20px;
     text-transform: uppercase;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     color: #696565;
 }
 .event_header.text-center p {
@@ -640,7 +639,7 @@ section#counter {
     font-family: 'Open Sans', sans-serif;
 }
 #event .event_text {
-    padding: 31px 18px 0px 18px;
+    padding: 25px 18px 0px 18px;
 	height: 325px;
     background: #eff0f2;
 }
@@ -654,7 +653,7 @@ section#counter {
     padding-bottom: 15px;
     font-weight: 700;
     color: #454444;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 /*"Lucida Grande", Helvetica, Arial, sans-serif
 */
@@ -663,13 +662,13 @@ section#counter {
     padding-bottom: 20px;
     font-size: 14px;
     color: #6c6b6b;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 #event .event_text p {
     font-size: 14px;
     color: #646464;
     padding-bottom: 35px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 #event a.event_btn {
     background: #101010;
@@ -693,17 +692,17 @@ section#counter {
     overflow: hidden;
 }
 .event_news_text h4 {
-
+    margin: 0 !important;
     color: #454444;
     font-size: 18px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
 }
 #event .event_news_text p {
     padding-top: 10px;
     font-size: 14px;
     color: #646464;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 #event .event_news_img {
     padding-right: 10px;
@@ -729,7 +728,7 @@ section#counter {
     font-weight: 700;
     text-transform: uppercase;
     padding-bottom: 20px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+	font-family: 'Cormorant Garamond', serif;
     color: #fff;
 }
 #testimonial .testimonial_header p {
@@ -754,7 +753,7 @@ section#counter {
     font-size: 36px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     color: #696565;
 }
 #blog .latest_blog p {
@@ -775,7 +774,7 @@ section#counter {
     font-weight: 400;
     padding-bottom: 10px;
     color: #454444;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 #blog .expert {
     padding-bottom: 20px;
@@ -799,7 +798,7 @@ section#counter {
 #blog .blog_news span.right_msg span {
     font-size: 14px;
     color: #aeadad;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
 }
 #blog .expert a {
@@ -820,7 +819,7 @@ section#counter {
     color: #545353;
     transition: 0.7s;
     font-size: 14px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 #blog a.blog_link:hover {
     color: #43a906;
@@ -844,7 +843,7 @@ section#market {
 #purches h2.purches_title {
     font-size: 36px;
     padding-top: 80px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
     color: #ffffff;
 }
@@ -857,7 +856,7 @@ section#market {
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 2px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 18px;
 }
 div#market-place {
@@ -911,7 +910,7 @@ li.fw-flash-message {
     text-transform: uppercase;
     font-weight: 400;
     padding-bottom: 20px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     color: #696565;
 }
 .custom-btn {
@@ -924,7 +923,7 @@ li.fw-flash-message {
     border-radius: 2px;
     letter-spacing: 5px;
     font-size: 14px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     outline: 0 !important;
 }
 .office {
@@ -935,7 +934,7 @@ li.fw-flash-message {
     font-weight: 400;
     text-transform: uppercase;
     padding-bottom: 20px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     color: #696565;
 }
 .office_location i span {
@@ -956,7 +955,7 @@ li.fw-flash-message {
     font-weight: 700;
     text-transform: uppercase;
     color: #696565;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 .contact_area p {
     font-size: 16px;
@@ -1109,7 +1108,7 @@ li.fw-flash-message {
     font-weight: 700;
     text-transform: uppercase;
     color: #696565;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
 
 }
 
@@ -1119,7 +1118,7 @@ li.fw-flash-message {
     font-weight: 400;
     text-transform: uppercase;
     padding-bottom: 20px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     color: #696565;
     padding-top: 0px
 }
@@ -1155,7 +1154,7 @@ ul.entry-meta {
     /* 196 236 255 0.79*/
     padding: 10px 30px;
     font-size: 16px;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
 }
 .btn.focus, .btn:focus, .btn:hover {

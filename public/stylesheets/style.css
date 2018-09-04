@@ -44,7 +44,7 @@ max-height: 415px !important;
 }
 
 .iconei {
-    padding: 15px 10px 15px 10px;
+    padding: 0 15px 0 10px;
 }
 
 .box1 {
@@ -398,6 +398,7 @@ script {
     background-size: cover;
     background-repeat: repeat;
 	padding-bottom: 40px;
+	padding-top: 30px !important;
 }
 .regard_rat {
 	background-image: url(../images/regard_rat.jpg);
@@ -405,8 +406,8 @@ script {
     background-repeat: no-repeat;
     background-size: cover;
     background-repeat: repeat;
-	padding-bottom: 25px;
-	padding-top: 10px;
+	padding-bottom: 40px;
+	padding-top: 30px !important;
 }
 
 .regard_fourmi{
@@ -416,6 +417,8 @@ script {
     background-size: cover;
     background-repeat: repeat;
 	padding-bottom: 40px;
+	padding-top: 30px !important;
+
 }
 .regard_chevre{
 	background-image: url(../images/regard_chevre.jpg);
@@ -424,6 +427,8 @@ script {
     background-size: cover;
     background-repeat: repeat;
 	padding-bottom: 40px;
+	padding-top: 30px !important;
+
 }
 
 .regard_imagin{
@@ -432,7 +437,9 @@ script {
     background-repeat: no-repeat;
     background-size: cover;
     background-repeat: repeat;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px !important;
+
 }
 
 .list-group-head{
@@ -449,4 +456,12 @@ script {
 	font-size: 70%;
 	line-height: 1.6;
 }
-	
+.alli-left{
+    text-align: left !important;
+	line-height: 1.4;
+}
+.padTop{
+   padding-top: 10px;
+}
+
+
