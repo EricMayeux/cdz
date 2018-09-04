@@ -28,8 +28,8 @@ max-height: 415px !important;
 }
 .positioned {
   position: relative; /* postulat de départ */
-  top: 50%; left: 54%; /* à 50%/50% du parent référent */
-  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -35%); /* décalage de 50% de sa propre taille */
 }
 .centred {
    text-align: center; 
@@ -146,8 +146,8 @@ max-height: 415px !important;
 .borderRond{
     border: 5px solid rgba(255, 255, 255, 0.85);
 	margin-left: 90px;
-	margin-bottom: -16px;
-	margin-top: -26px;
+	margin-bottom: -15px;
+	margin-top: -5px;
     text-align: center;
 	box-shadow: 0 4px 5px rgba(99, 99, 99, 0.5), 0 5px 4px rgba(99, 99, 99, 0.5);
 	border-radius: 100%;

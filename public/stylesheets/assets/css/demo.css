@@ -431,15 +431,12 @@ padding-top: 60px;
 	text-shadow: 0 4px 5px rgba(99, 99, 99, 0.5), 0 5px 4px rgba(99, 99, 99, 0.5);
 	text-align: center;
 	text-align: -webkit-center;
-	padding-bottom: 20px;
 	font-size: 130%;	
 }
 .centred3 h3{
 	text-shadow: 0 4px 5px rgba(99, 99, 99, 0.5), 0 5px 4px rgba(99, 99, 99, 0.5);
 	text-align: center;
 	text-align: -webkit-center;
-	padding-top: 15px;
-	padding-bottom: 10px;
 	font-size: 130%;
 }
 }
@@ -453,15 +450,12 @@ padding-top: 60px;
 	text-shadow: 0 4px 5px rgba(99, 99, 99, 0.5), 0 5px 4px rgba(99, 99, 99, 0.5);
 	text-align: center;
 	text-align: -webkit-center;
-	padding-bottom: 20px;
 	font-size: 24px;
 }
 .centred3 h3{
 	text-shadow: 0 4px 5px rgba(99, 99, 99, 0.5), 0 5px 4px rgba(99, 99, 99, 0.5);
 	text-align: center;
 	text-align: -webkit-center;
-	padding-top: 15px;
-	padding-bottom: 10px;
 	font-size: 24px;
 }
 }
@@ -476,8 +470,8 @@ padding-top: 60px;
 	text-shadow: 0 4px 5px rgba(99, 99, 99, 0.5), 0 5px 4px rgba(99, 99, 99, 0.5);
 	text-align: center;
 	text-align: -webkit-center;
-	padding-top: 15px;
-	padding-bottom: 10px;
+	padding-top: 25px;
+	padding-bottom: 35px;
 }
 .main{
     background-color: #FFFFFF;
@@ -490,4 +484,16 @@ padding-top: 60px;
 .img-dog{
     display: inline-block;
     margin-bottom: 25px;
+}
+
+.floux{
+	    background-color: rgba(0,17,55,0.29);
+		padding-top: 25px;
+		border: 1px solid rgba(227,228,211,0.21);
+
+}
+
+.floux:hover{
+	    background-color: rgba(200,187,166,0.58);
+		padding-top: 25px;
 }
