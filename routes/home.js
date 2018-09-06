@@ -25,9 +25,9 @@ var file = path.join(__dirname, '/upload-folder/Presentation_programme_CDZ.pdf')
 
 });
 
-router.get('/downloadTB', function(req, res){
+router.get('/downloadMaster', function(req, res){
 	
-var file = path.join(__dirname, '/upload-folder/Presentation_programme_CDZ.pdf');
+var file = path.join(__dirname, '/upload-folder/Memoire_master2_philosophie_Ecole_Normale_Superieure.pdf');
    res.download(file, function (err) {
        if (err) {
            console.log("Error téléchargement");

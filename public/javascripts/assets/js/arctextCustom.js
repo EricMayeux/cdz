@@ -27,81 +27,81 @@
 			
 			function init() {
 
-				$rotationUp.show().arctext({
-					radius: 400, 
+				$rotationUp.show().arctext({//formation - formation
+					radius: 210, 
 					rotate: true,
 					dir: 1, 
 					animation	: {
-					speed	: 300
+					speed	: 10
 						}});
-				$rotationUp2.show().arctext({
-					radius: 400, 
+				$rotationUp2.show().arctext({//Team Building - Team Building
+					radius: 250, 
 					rotate: true,
 					dir: 1, 
 					animation	: {
-					speed	: 300
+					speed	: 10
 						}});
-				$rotationUp3.show().arctext({
-					radius: 400, 
+				$rotationUp3.show().arctext({//Zoopédagogie - Team Building
+					radius: 220, 
 					rotate: true,
 					dir: 1, 
 					animation	: {
-					speed	: 300
+					speed	: 10
 						}});
-				$rotationUp4.show().arctext({
-					radius: 400, 
+				$rotationUp4.show().arctext({ //zoopédagogie - formation
+					radius: 220, 
 					rotate: true,
 					dir: 1, 
 					animation	: {
-					speed	: 300
+					speed	: 10
 						}});
-				$rotationUp5.show().arctext({
-					radius: 400, 
+				$rotationUp5.show().arctext({//pour les - formation
+					radius: 180, 
 					rotate: true,
 					dir: -1, 
 					animation	: {
-					speed	: 300
+					speed	: 10
 						}});
-				$rotationUp6.show().arctext({
-					radius: 400, 
+				$rotationUp6.show().arctext({//Pour le management - Team Building
+					radius: 180, 
 					rotate: true,
 					dir: -1, 
 					animation	: {
-					speed	: 300
+					speed	: 10
 						}});
-				$rotationUp2b.show().arctext({
-					radius: 400, 
+				$rotationUp2b.show().arctext({//et la gestino de groupe - Team Building
+					radius: 230, 
 					rotate: true,
 					dir: 1, 
 					animation	: {
-					speed	: 300
+					speed	: 10
 						}});
-				$rotationUp5b.show().arctext({
-					radius: 400, 
+				$rotationUp5b.show().arctext({//de l'éductation - formation
+					radius: 230, 
 					rotate: true,
 					dir: -1, 
 					animation	: {
-					speed	: 300
+					speed	: 10
 						}});
 				$rotationUp6b.show().arctext({
-					radius: 400, 
+					radius: 230, 
 					rotate: true,
 					dir: -1, 
 					animation	: {
-					speed	: 300
+					speed	: 10
 						}});
 			/*
 			/*
 
-				$headline.show().arctext({radius: 400});
+				$headline.show().arctext({radius: 230});
 					
 				$word1.show().arctext();
 				$word2.show().arctext({radius: 148, dir: -1});
 				
-				$example1.show().arctext({radius: 300});
-				$example2.show().arctext({radius: 400, dir: -1});
+				$example1.show().arctext({radius: 10});
+				$example2.show().arctext({radius: 230, dir: -1});
 
-				$example4.show().arctext({radius: 300});
+				$example4.show().arctext({radius: 10});
 			
 				
 				
@@ -115,10 +115,10 @@
 				});
 				$('#button_anim1').on('click', function() {
 					$example4.arctext('set', {
-						radius		: 300, 
+						radius		: 10, 
 						dir			: -1,
 						animation	: {
-							speed	: 300,
+							speed	: 10,
 							easing  : 'ease-out'
 						}
 					});
@@ -129,14 +129,14 @@
 						radius		: 200, 
 						dir			: 1, 
 						animation	: {
-							speed	: 300
+							speed	: 10
 						}
 					});
 					return false;
 				});
 				$('#button_reset').on('click', function() {
 					$example4.arctext('set', {
-						radius		: 300, 
+						radius		: 10, 
 						dir			: 1
 					});
 					return false;
