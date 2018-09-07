@@ -360,7 +360,7 @@
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
     text-transform: uppercase;
-    top: 405px;
+    top: 355px;
     z-index: 3;
 
     display: block;
@@ -431,7 +431,7 @@ padding-top: 60px;
 	font-size: 43px;
 	width: 140px;
 	z-index: 3;
-	top: 350px;
+	top: 290px;
 	z-index: 3;
 }
 .blurred-container .mottoO{
@@ -538,4 +538,8 @@ padding-top: 60px;
 .floux:hover .whited{
 		color:white;
 }
+.floux:hover .main_counter_area {
+		color:red;
+}
+
 
