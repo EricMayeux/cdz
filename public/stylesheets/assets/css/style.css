@@ -1200,7 +1200,7 @@ ul.entry-meta {
 }
 .main_counter_area .main_counter_content .single_counter{
     background: rgba(216,193,177,0.8);
-    padding-top: 25px;
+    padding-top: 10px;
     height: 220px;
     color: #fbffff !important;
     font-weight: 650 !important;
@@ -1224,10 +1224,24 @@ ul.entry-meta {
     font-size: 15px;
 	 box-shadow: 3px 7px 20px 0px black;
 	 text-align:center;
+	 padding-top: 5px !important;
 }
 .padTp {
 padding-top: 16px !important;
 }  
+
+.fontawe {
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.fontawe2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.fontawe3 {
+    padding-top: 16px;
+    margin-bottom: -3px;
+}
  
 @media (max-width: 768px){
     /*.event_single_item > .event_news_img{
@@ -1262,4 +1276,7 @@ padding-top: 16px !important;
 .padTp {
 padding-top: 16px !important;
 }    
+
+
+
 }
