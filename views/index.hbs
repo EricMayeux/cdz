@@ -42,9 +42,12 @@
                                         <h4>Pré-requis: </h4></a>
                                         <h6>son public</h6>
                                            <div class="subtitle2">
-            Il est essentiel d’être formé au public avec lequel on souhaite travailler pour connaitre ses besoins et y répondre au mieux.
-            Grâce aux différents modules de la formation et à partir de vos problématiques clairement définies, vous serez capable d'élaborer et conduire vos propres ateliers.
+            Grâce aux différents modules de la formation et à partir de vos "problématiques" clairement définies, vous serez capable d'élaborer et conduire vos propres ateliers.
+            Afin de savoir si vous correspondez à notre approche de la zoopédagogie, voici un petit test : </br>
                                           </div>
+                                          <p>
+                                              <a href="#test" class="btn btn-round btn-default">Aller au test</a>
+                                          </p>
                                      </div>
                                 </div>
                             </div>
@@ -137,9 +140,10 @@
             <div class="btn-contenu">
                 <a href="/contenu" class="btn btn-round btn-default">voir le Contenu de la formation</a>
             </div>
+
+  
             </div>
             <!--End of container-->
-            
         </section>
 
 
@@ -161,9 +165,11 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="single_counter fa-3x p-y-2 m-t-1">
-<div class="r">
-Présentation du programme de Zoopédagogie aux Juges pour enfant du Tribunal de Grande Instance d’Evry
-              </div>
+                                        <i class="fas fa-paw m-b-1"></i>
+                                        <div class="fontawe">
+                                        <i class="fas fa-handshake fa-2x"></i>
+                                        </div>
+                                        <p style="margin-top: -7px;">jours de stage (facultatif)</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
@@ -188,5 +194,99 @@ Présentation du programme de Zoopédagogie aux Juges pour enfant du Tribunal de
             <hr />
         </section>
         </div>
-            <div class="space"></div>
+            <div class="pad"></div>
         </div>
+
+
+<div class="main" style="padding-top: 0px;"> 
+<a id="test" name="test"></a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="event_header text-center">
+                            <h1>Parlez-nous de vous</h1>
+                            <h2>Suis-je fait pour cette formation .</h2>
+                        </div>
+                                <div>
+<form action="">
+<p>
+      <label>
+        <input type="checkbox" name="evenement[0]" id="evenement0"/>
+        <span>J'ai un enseignement à transmettre</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" name="evenement[1]" id="evenement1"/>
+        <span>Je travail dans le social</span>
+      </label>
+    </p>
+        <p>
+      <label>
+        <input type="checkbox" name="evenement[2]" id="evenement2"/>
+        <span>Je vise une approche thérapeutique</span>
+      </label>
+    </p>
+        <p>
+      <label>
+        <input type="checkbox" name="evenement[3]" id="evenement3"/>
+        <span>Je souhaite me reconvertir</span>
+      </label>
+    </p>
+        <p>
+      <label>
+        <input type="checkbox" name="evenement[4]" id="evenement4"/>
+        <span>Je suis professeur</span>
+      </label>
+    </p>
+            <p>
+      <label>
+        <input type="checkbox" name="evenement[5]" id="evenement5"/>
+        <span>Je souhaite faire de la zoopédagogie chez moi</span>
+      </label>
+    </p>
+   <input type="button" onclick="quiSuisJe()" value="valider"></input>
+</form>
+</div>   
+
+                    </div>
+                </div>
+
+</div>
+</section>
+</div>
+
+    
+        <script>
+   
+         function quiSuisJe()
+   {
+    var zoopedagogue = false; 
+    var i = 0;
+    
+     if (document.getElementById("evenement0").checked || document.getElementById("evenement1").checked || document.getElementById("evenement4").checked || document.getElementById("evenement5").checked)
+     {
+      zoopedagogue = true;
+     }
+     if (document.getElementById("evenement2").checked || document.getElementById("evenement3").checked) 
+     {
+      zoopedagogue = false;
+     }
+    
+    if(zoopedagogue == true)
+    {
+     alert("OUI");
+     return true;
+    }
+    else if(zoopedagogue == false)
+    {
+     alert("NON");
+     return false;
+    }
+    else
+    {
+     alert("NON");
+     return false;
+    }
+         } 
+        </script>
