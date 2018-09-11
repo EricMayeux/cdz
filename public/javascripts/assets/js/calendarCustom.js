@@ -37,15 +37,15 @@ for(var i=0; i<12; i++){
 }
 jourDeStage[janvier].push("");
 jourDeStage[fevrier].push("");
-jourDeStage[mars].push("4","5","6","7");
+jourDeStage[mars].push("");
 jourDeStage[avril].push("");
 jourDeStage[mai].push("");
-jourDeStage[juin].push("3","4","5","6");
+jourDeStage[juin].push("");
 jourDeStage[juillet].push("");
 jourDeStage[aout].push("");
-jourDeStage[septembre].push("23","24","25","26");
+jourDeStage[septembre].push("");
 jourDeStage[octobre].push("");
-jourDeStage[novembre].push("4","5","6","7");
+jourDeStage[novembre].push("");
 jourDeStage[decembre].push("");
 
 //var Jour de formation déjà réservés, par mois
@@ -75,7 +75,7 @@ jourDeStageOut[janvier].push("");
 jourDeStageOut[fevrier].push("");
 jourDeStageOut[mars].push("");
 jourDeStageOut[avril].push("");
-jourDeStageOut[mai].push("6","7","8","9");
+jourDeStageOut[mai].push("");
 jourDeStageOut[juin].push("");
 jourDeStageOut[juillet].push("");
 jourDeStageOut[aout].push("");
