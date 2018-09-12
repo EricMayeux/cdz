@@ -1,6 +1,10 @@
 body {
 font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+.surli {
+text-decoration: underline;
+font-weight: bold;
+}
 .navPerso {
 max-height: 470px !important;
 }
