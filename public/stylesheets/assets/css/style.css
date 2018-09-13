@@ -820,16 +820,17 @@ section#counter {
     padding-bottom: 15px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-#blog a.blog_link {
+a.blog_link {
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     color: #545353;
     transition: 0.7s;
-    font-size: 14px;
-    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+	text-decoration: underline !important;
 }
-#blog a.blog_link:hover {
-    color: #43a906;
+a.blog_link:hover {
+    color: #5ecbff;
 }
 
 /*purches*/
