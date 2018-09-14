@@ -823,14 +823,14 @@ section#counter {
 a.blog_link {
     text-transform: uppercase;
     font-weight: 600;
-    color: #545353;
-    transition: 0.7s;
+    color: #5ecbff;
+    transition: 0.5s;
     font-size: 17px;
     font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
 	text-decoration: underline !important;
 }
 a.blog_link:hover {
-    color: #5ecbff;
+    color: #e1e6e8;
 }
 
 /*purches*/

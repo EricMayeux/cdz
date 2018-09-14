@@ -6,4 +6,3 @@ $(window).scroll(function(e) {
     $(".blur").css("opacity", oVal);
     
 });
-

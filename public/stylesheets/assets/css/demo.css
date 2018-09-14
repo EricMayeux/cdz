@@ -541,5 +541,21 @@ padding-top: 60px;
 .floux:hover .main_counter_area {
 		color:red;
 }
+@font-face {
+	font-family: encreMousse;
+	src: url(encreMousse.ttf);
+}
 
+.floux h2,.floux h3 {
+font-family: encreMousse;
+font-size: 180%;
+}
+
+.floux p {
+font-family: encreMousse;
+}
+
+.mousse {
+font-family: encreMousse;
+}
 

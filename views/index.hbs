@@ -49,8 +49,8 @@ c’est la connaissance de votre public qui vous permettra
 d’élaborer et de mettre en œuvre <b>votre propre programme</b> de
 Zoopédagogie, ou de mettre en place la Zoopédagogie maïeuticienne.
 En ce sens, je ne concidère <b>pas vous former à un métier ni à une technique, mais à un « outil
-vivant »</b>.
-            Afin de savoir si vous correspondez à notre approche de la zoopédagogie,<a href="#test" class="btn" style="padding: 0px 10px; "> voici un petit test : </a></br>
+vivant »</b>.</br>
+            Correspondez-vous à notre approche de la zoopédagogie ? <a href="#test" class="btn" style="padding: 0px 8px; "> voici un petit test : </a></br>
                                           </div>
                                          
                                      </div>
@@ -316,7 +316,9 @@ vivant »</b>.
                                   </label>
                                 </p>
                             <div>
-                                   <a class="waves-effect waves-light btn modal-trigger" onclick="quiSuisJe()" >Résultat</a>
+                                   <button class="waves-effect waves-light btn modal-trigger" data-toggle="modal" data-target="#myModal" style="border: none;background-color: inherit;" onclick="quiSuisJe()">
+            <h3 class="d-none d-lg-block d-xl-block">Résultat</h3>
+            </button>
                                 </div>
                             </div>
 
@@ -328,6 +330,25 @@ vivant »</b>.
 </div>
 </section>
 </div>
+
+
+<!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Etes-vous un zoopédagogue dans l'âme ?</h4>
+                      </div>
+                      <div class="modal-body" style="text-align: left;">
+                        <div><span id="spanResultat">Voici le Résultat du test</span></div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Fermer</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
     
         <script>
@@ -381,12 +402,12 @@ vivant »</b>.
     {
         if(metierCompatible == true)
         {
-         alert("OUI et le métier est compatible");
+         modifModal("OUI et le métier est compatible");
          return true;
         }
         else
         {
-        alert("OUI même si votre activité sort des santiers battus");
+        modifModal("OUI même si votre activité sort des santiers battus");
          return true;
         }
     }
@@ -394,12 +415,12 @@ vivant »</b>.
     {
         if(zootherapeute == true || formeASonPublic == false )
         {
-         alert("Votre métier est compatible avec notre approche, mais notre vision est différente de la votre");
+         modifModal("Votre métier est compatible avec notre approche, mais notre vision est différente de la votre");
          return false;
         }
         else
         {
-        alert("Votre métier est compatible et vous avez l'ame d'un zoopédagogue");
+        modifModal("Votre métier est compatible et vous avez l'ame d'un zoopédagogue");
         return true;
         }
     }
@@ -407,16 +428,22 @@ vivant »</b>.
     {
         if(zootherapeute == true || formeASonPublic == false )
         {
-         alert("NON");
+         modifModal("NON");
          return false;
         }
         else
         {
-        alert("Bien que votre métier n'est pas compatible a première vue, vous avez l'ame d'un zoopédagogue ");
+        modifModal("Bien que votre métier n'est pas compatible a première vue, vous avez l'ame d'un zoopédagogue ");
         return true;
         }
     }
 
     
          } 
+
+     function modifModal(texteResult)
+   {
+    var span = document.getElementById("spanResultat");
+    span.innerHTML = texteResult;
+   }   
         </script>
