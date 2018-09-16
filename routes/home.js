@@ -42,7 +42,7 @@ var file = path.join(__dirname, '/upload-folder/Memoire_master2_philosophie_Ecol
 
 router.get('/downloadInscrition', function(req, res){
   
-var file = path.join(__dirname, '/upload-folder/Memoire_master2_philosophie_Ecole_Normale_Superieure.pdf');
+var file = path.join(__dirname, '/upload-folder/dossier_inscription_formation_zoopedagogie.pdf');
    res.download(file, function (err) {
        if (err) {
            console.log("Error téléchargement");
