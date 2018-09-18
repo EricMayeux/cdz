@@ -1,14 +1,165 @@
 <div class="main">
-   <section id="event">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-         <div class="event_header text-center">     
+<section id="event"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="event_header text-center">
            <h1>La Zoopédagogie maïeuticienne, </h1>
            <h2>pour quel professionnel ?</h2>
-         </div>
-        </div>
-      </div>
+                            <a id="test" name="test"></a>
+                        </div>
+                        <div class="pad">
+                                    <span >Cocher le/les case(s) si cela vous correspond.</span>
+</div>
+                        <form action="">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[1]" id="evenement1"/>
+                                    <span>Je travail dans le secteur du social</span>
+                                  </label>
+                                </p>
+                                <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[8]" id="evenement8"/>
+                                    <span>Je suis éducateur</span>
+                                  </label>
+                                </p>
+                                    <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[9]" id="evenement9"/>
+                                    <span>Je travail dans le secteur médical</span>
+                                  </label>
+                                </p>
+                                    <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[3]" id="evenement3"/>
+                                    <span>Je souhaite me reconvertir</span>
+                                  </label>
+                                </p>
+                                    <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[4]" id="evenement4"/>
+                                    <span>Je suis professeur, enseignant, instituteur</span>
+                                  </label>
+                                </p>
+                                 <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[5]" id="evenement5"/>
+                                    <span>Je souhaite faire de la zoopédagogie chez moi</span>
+                                  </label>
+                                </p>
+                                <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[16]" id="evenement16"/>
+                                    <span>Mon activité n'apparait pas dans les choix</span>
+                                  </label>
+                                </p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[11]" id="evenement11"/>
+                                    <span>J'ai un enseignement, une éducation à transmettre dans un cadre familial</span>
+                                  </label>
+                                </p>
+                                <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[6]" id="evenement6"/>
+                                    <span>Je vais utiliser l'animal pour soigner les troubles/contraintes physiques</span>
+                                  </label>
+                                </p>
+                                    <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[7]" id="evenement7"/>
+                                    <span>Je vais utiliser l'animal pour soigner les pathologies/troubles mentaux plus ou moins lourdes</span>
+                                  </label>
+                                </p>
+                                    <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[2]" id="evenement2"/>
+                                    <span>Je vise une approche thérapeutique</span>
+                                  </label>
+                                </p>
+                                <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[0]" id="evenement0"/>
+                                    <span>J'ai un enseignement à transmettre dans un cadre professionnel ou associatif</span>
+                                  </label>
+                                </p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[10]" id="evenement10"/>
+                                    <span>Je travail avec des adultes</span>
+                                  </label>
+                                </p>
+                                <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[12]" id="evenement12"/>
+                                    <span>Je travail avec des enfants/adolescants</span>
+                                  </label>
+                                </p>
+                                <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[17]" id="evenement17"/>
+                                    <span>Je travail avec des personnes agées</span>
+                                  </label>
+                                </p>
+                                <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[13]" id="evenement13"/>
+                                    <span>Je ne connais pas les spécificités du public avec qui je vais travailler</span>
+                                  </label>
+                                </p>
+                                <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[14]" id="evenement14"/>
+                                    <span>Je ne vise que le bien être immédiat de mon public</span>
+                                  </label>
+                                </p>
+                                <p>
+                                  <label>
+                                    <input type="checkbox" name="evenement[15]" id="evenement15"/>
+                                    <span>Je cherche à ce que mon public se révèle à lui-même </span>
+                                  </label>
+                                </p>
+                            <div>
+                                   <button class="waves-effect waves-light btn modal-trigger" data-toggle="modal" data-target="#myModal" style="border: none;background-color: inherit;" onclick="quiSuisJe()">
+            <h3 class="d-none d-lg-block d-xl-block">Résultat</h3>
+            </button>
+                                </div>
+                            </div>
+
+                        </form> 
+
+                    </div>
+                </div>
+
+</div>
+</section>
+</div>
+
+
+<!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Etes-vous un zoopédagogue dans l'âme ?</h4>
+                      </div>
+                      <div class="modal-body" style="text-align: left;">
+                        <div><span id="spanResultat">Voici le Résultat du test</span></div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Fermer</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
       <div class="row">
         <div class="subtitle3">
             <div class="justi"> 
@@ -107,5 +258,3 @@ soi-même et être acteur dans la société ».</br>
     </div> 
 </div>
     <div class="space"></div>
-
-

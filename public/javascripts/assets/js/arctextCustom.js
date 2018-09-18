@@ -28,7 +28,7 @@
 			function init() {
 
 				$rotationUp.show().arctext({//formation - formation
-					radius: 210, 
+					radius: 230, 
 					rotate: true,
 					dir: 1, 
 					animation	: {
@@ -42,28 +42,28 @@
 					speed	: 10
 						}});
 				$rotationUp3.show().arctext({//Zoopédagogie - Team Building
-					radius: 220, 
+					radius: 230, 
 					rotate: true,
 					dir: 1, 
 					animation	: {
 					speed	: 10
 						}});
 				$rotationUp4.show().arctext({ //zoopédagogie - formation
-					radius: 220, 
+					radius: 230, 
 					rotate: true,
 					dir: 1, 
 					animation	: {
 					speed	: 10
 						}});
 				$rotationUp5.show().arctext({//pour les - formation
-					radius: 180, 
+					radius: 215, 
 					rotate: true,
 					dir: -1, 
 					animation	: {
 					speed	: 10
 						}});
 				$rotationUp6.show().arctext({//Pour le management - Team Building
-					radius: 180, 
+					radius: 215, 
 					rotate: true,
 					dir: -1, 
 					animation	: {

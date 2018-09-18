@@ -174,12 +174,16 @@ max-height: 470px !important;
 	font-family:
 }
 
+@font-face {
+	font-family: encreMousse;
+	src: url(encreMousse.ttf);
+}
 .fontitre{
 	font-size:49px;
 	margin: 0;
     padding: 0;
     font-weight: bold;
-	font-family: fantasy;
+	font-family: encreMousse;
 	text-shadow: 1px 0 0 rgba(99, 99, 99, 0.5), 1px 3px 0 rgba(99, 99, 99, 0.5), 0 5px 0 rgba(99, 99, 99, 0.5), -1px 4px 0 rgba(99, 99, 99, 0.5), -1px 0 0 rgba(99, 99, 99, 0.5), -1px -1px 0 rgba(99, 99, 99, 0.5), 0 -1px 0 rgba(99, 99, 99, 0.5), 1px -1px 0 rgba(99, 99, 99, 0.5);
 	
 }

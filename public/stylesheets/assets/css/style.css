@@ -1216,18 +1216,29 @@ ul.entry-meta {
 }
 .statistic-counter{
     margin-top: 18px;
-    margin-bottom: 0px;
+    margin-bottom: 4px;
 }
 .main_counter_area .main_counter_content .single_counter2{
     background: rgba(216,193,177,0.15);
 	height: 130px;
     color: rgba(255,255,255,0.85) !important;
     font-weight: 0 !important;
-    font-size: 15px;
+    font-size: 13px;
 	 box-shadow: 3px 7px 20px 0px black;
 	 text-align:center;
 	 padding-top: 5px !important;
+	  word-break: break-word;
+ word-break: break-word;
+ -webkit-hyphens: auto;
+ -moz-hyphens: auto;
+ -ms-hyphens: auto;
+ -o-hyphens: auto;
+ hyphens: auto;
 }
+.main_counter_area .main_counter_content .single_counter2 h3{
+font-size: 25px;
+}
+
 .padTp {
 padding-top: 16px !important;
 }  
@@ -1237,11 +1248,11 @@ padding-top: 16px !important;
     margin-bottom: 10px;
 }
 .fontawe2 {
-    margin-top: 15px;
+    margin-top: 21px;
     margin-bottom: 5px;
 }
 .fontawe3 {
-    padding-top: 16px;
+    padding-top: 26px;
     margin-bottom: -3px;
 }
  

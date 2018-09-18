@@ -507,7 +507,7 @@ padding-top: 60px;
 	text-shadow: 0 4px 5px rgba(99, 99, 99, 0.5), 0 5px 4px rgba(99, 99, 99, 0.5);
 	text-align: center;
 	text-align: -webkit-center;
-	padding-top: 25px;
+	padding-top: 22px;
 	padding-bottom: 35px;
 }
 .main{
@@ -543,12 +543,12 @@ padding-top: 60px;
 }
 @font-face {
 	font-family: encreMousse;
-	src: url(encreMousse.ttf);
+	src: url(tiza.ttf);
 }
 
 .floux h2,.floux h3 {
 font-family: encreMousse;
-font-size: 180%;
+font-size: 120%;
 }
 
 .floux p {
