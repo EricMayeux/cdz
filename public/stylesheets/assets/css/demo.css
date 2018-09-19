@@ -467,7 +467,7 @@ padding-top: 60px;
 }
 .floux h2,.floux h3 {
 font-family: encreMousse;
-font-size: 82%;
+font-size: 82% !important;
 }
 }
 .blurred-container .motto2 .border{
@@ -502,7 +502,7 @@ font-size: 82%;
 
 .floux h2,.floux h3 {
 font-family: encreMousse;
-font-size: 82%;
+font-size: 82% !important;
 }
 }
 
