@@ -52,26 +52,26 @@ function quiSuisJe()
     {
         if(metierCompatible == true)
         {
-         modifModal("Vous êtes tout a fait à même de faire de la zoopédagogie dans votre environnement.");
+         modifModal("Plus que doté de l'esprit d'un zoopédagogue, vous avez assurément la capacité de faire de la zoopédagogie dans votre environnement.");
          return true;
         }
         else
         {
-        modifModal("Bien que l'apport de la zoopédagogie dans votre activité ne semble pas forcément aller de soit, nous ne doutons pas du fait que vous puissiez faire des liens entre l'animal et votre public.");
+        modifModal("Bien que l'apport de la zoopédagogie dans votre activité ne semble pas forcément aller de soi, nous ne doutons pas du fait que vous puissiez faire des liens entre l'animal et votre public. Nous ne tarderons pas de découvrir ensemble quelle pourrait être votre approche zoopédagogique (et comment la mettre en place).");
          return true;
         }
     }
     if(metierCompatible == true)
     {
 		if (formeASonPublic == false ) {
-			modifModal("Pour exercer efficacement en zoopédagogie (et d'une manière générale en médiation animale), il faut bien connaitre/être formé à son public. Il faut être capable de faire des liens avec les nécéssités de votre auditoire. La zoopédagogie est un outil qui vient enrichir votre pratique professionnelle. Cette formation s'adresse donc aux personnes connaissant parfaitement leur public.");
+			modifModal("Pour exercer efficacement en zoopédagogie (et d'une manière générale en médiation animale), il faut bien connaitre/être formé à son public. Il faut être capable de faire des liens avec les nécessités de votre auditoire. La zoopédagogie est un outil qui vient enrichir votre pratique professionnelle. Cette formation s'adresse donc aux personnes connaissant parfaitement leur public.");
 			return true;
         } else {
 			if(zootherapeute == true) {
 				modifModal("L'approche zoopédagogique diffère d'une approche thérapeutique. Bien que les bienfaits de l'animal ainsi que le résultat des 'ateliers' aient des vertus thérapeutiques, ce n'est pas le but recherché. <a href='https://fr.wikipedia.org/wiki/Zoothérapie' target='_blank' >voir définition Wikipédia</a> ");
 				return false;	
 			}else {
-				modifModal("Vous êtes tout a fait à même de faire de la zoopédagogie dans votre environnement.");
+         modifModal("Plus que doté de l'esprit d'un zoopédagogue, vous avez assurément la capacité de faire de la zoopédagogie dans votre environnement.");
 				return true;
 			}
 		}
@@ -80,14 +80,14 @@ function quiSuisJe()
     else
     {	
 		if (formeASonPublic == false ) {
-			modifModal("Pour exercer efficacement en zoopédagogie (et d'une manière générale en médiation animale), il faut bien connaitre/être formé à son public. Il faut être capable de faire des liens avec les nécéssités de votre auditoire. La zoopédagogie est un outil qui vient enrichir votre pratique professionnelle. Cette formation s'adresse donc aux personnes connaissant parfaitement leur public.");
+			modifModal("Pour exercer efficacement en zoopédagogie (et d'une manière générale en médiation animale), il faut bien connaitre/être formé à son public. Il faut être capable de faire des liens avec les nécessités de votre auditoire. La zoopédagogie est un outil qui vient enrichir votre pratique professionnelle. Cette formation s'adresse donc aux personnes connaissant parfaitement leur public.");
 			return true;
         } else {
 			if(zootherapeute == true) {
 				modifModal("L'approche zoopédagogique diffère d'une approche thérapeutique. Bien que les bienfaits de l'animal ainsi que le résultat des 'ateliers' aient des vertus thérapeutiques, ce n'est pas le but recherché. <a href='https://fr.wikipedia.org/wiki/Zoothérapie' target='_blank' >voir définition Wikipédia</a> ");
 				return false;	
 			}else {
-        modifModal("Bien que l'apport de la zoopédagogie dans votre activité ne semble pas forcément aller de soit, nous ne doutons pas du fait que vous puissiez faire des liens entre l'animal et votre public.");
+        modifModal("Bien que l'apport de la zoopédagogie dans votre activité ne semble pas forcément aller de soi, nous ne doutons pas du fait que vous puissiez faire des liens entre l'animal et votre public. Nous ne tarderons pas de découvrir ensemble quelle pourrait être votre approche zoopédagogique (et comment la mettre en place).");
 				return true;
 			}
 		}
