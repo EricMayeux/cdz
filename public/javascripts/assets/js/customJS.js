@@ -9,7 +9,7 @@ function quiSuisJe()
    {
     var zoopedagogue = false; 
     var zootherapeute = false;
-    var formeASonPublic = false;
+    var formeASonPublic = true;
     var metierCompatible = false;
 
     if (
@@ -64,7 +64,7 @@ function quiSuisJe()
     if(metierCompatible == true)
     {
 		if (formeASonPublic == false ) {
-			modifModal("Pour exercer efficacement en zoopédagogie (et d'une manière générale en médiation animale), il faut bien connaitre/être formé à son public. Il faut être capable de faire des liens avec les nécéssités de notre audimat. La zoopédagogie est un outils qui vient enrichir votre pratique professionnelle. Cette formation s'adresse donc aux personnes connaissant parfaitement leur public.");
+			modifModal("Pour exercer efficacement en zoopédagogie (et d'une manière générale en médiation animale), il faut bien connaitre/être formé à son public. Il faut être capable de faire des liens avec les nécéssités de votre auditoire. La zoopédagogie est un outil qui vient enrichir votre pratique professionnelle. Cette formation s'adresse donc aux personnes connaissant parfaitement leur public.");
 			return true;
         } else {
 			if(zootherapeute == true) {
@@ -80,7 +80,7 @@ function quiSuisJe()
     else
     {	
 		if (formeASonPublic == false ) {
-			modifModal("Pour exercer efficacement en zoopédagogie (et d'une manière générale en médiation animale), il faut bien connaitre/être formé à son public. Il faut être capable de faire des liens avec les nécéssités de notre audimat. La zoopédagogie est un outils qui vient enrichir votre pratique professionnelle. Cette formation s'adresse donc aux personnes connaissant parfaitement leur public.");
+			modifModal("Pour exercer efficacement en zoopédagogie (et d'une manière générale en médiation animale), il faut bien connaitre/être formé à son public. Il faut être capable de faire des liens avec les nécéssités de votre auditoire. La zoopédagogie est un outil qui vient enrichir votre pratique professionnelle. Cette formation s'adresse donc aux personnes connaissant parfaitement leur public.");
 			return true;
         } else {
 			if(zootherapeute == true) {
