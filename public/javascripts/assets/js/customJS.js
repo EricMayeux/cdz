@@ -57,7 +57,7 @@ function quiSuisJe()
         }
         else
         {
-        modifModal("Bien que l'apport de la zoopédagogie dans votre activité ne semble pas forcément aller de soi, nous ne doutons pas du fait que vous puissiez faire des liens entre l'animal et votre public. Nous ne tarderons pas de découvrir ensemble quelle pourrait être votre approche zoopédagogique (et comment la mettre en place).");
+        modifModal("Bien que l'apport de la zoopédagogie dans votre activité ne semble pas forcément aller de soi, nous ne doutons pas du fait que vous puissiez faire des liens entre l'animal et votre public. Nous ne tarderons pas à découvrir ensemble quelle pourrait être votre approche zoopédagogique (et comment la mettre en place).");
          return true;
         }
     }
