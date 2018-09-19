@@ -465,6 +465,10 @@ padding-top: 60px;
 	text-align: -webkit-center;
 	font-size: 24px;
 }
+.floux h2,.floux h3 {
+font-family: encreMousse;
+font-size: 82%;
+}
 }
 .blurred-container .motto2 .border{
     float: left;
@@ -494,6 +498,11 @@ padding-top: 60px;
 	text-align: center;
 	text-align: -webkit-center;
 	font-size: 130%;
+}
+
+.floux h2,.floux h3 {
+font-family: encreMousse;
+font-size: 82%;
 }
 }
 
