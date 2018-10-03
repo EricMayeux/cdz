@@ -28,7 +28,7 @@
 			function init() {
 
 				$rotationUp.show().arctext({//formation - formation
-					radius: 230, 
+					radius: 250, 
 					rotate: true,
 					dir: 1, 
 					animation	: {

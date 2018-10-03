@@ -171,20 +171,20 @@ max-height: 470px !important;
 	background-repeat: no-repeat;
 	max-width: 920px;
 	margin-top: 30px;
-	font-family:
 }
 
-@font-face {
+/*@font-face {
 	font-family: encreMousse;
 	src: url(encreMousse.ttf);
 }
+*/
 .fontitre{
-	font-size:49px;
+	font-size:41px;
 	margin: 0;
     padding: 0;
     font-weight: bold;
-	font-family: encreMousse;
-	text-shadow: 1px 0 0 rgba(99, 99, 99, 0.5), 1px 3px 0 rgba(99, 99, 99, 0.5), 0 5px 0 rgba(99, 99, 99, 0.5), -1px 4px 0 rgba(99, 99, 99, 0.5), -1px 0 0 rgba(99, 99, 99, 0.5), -1px -1px 0 rgba(99, 99, 99, 0.5), 0 -1px 0 rgba(99, 99, 99, 0.5), 1px -1px 0 rgba(99, 99, 99, 0.5);
+	font-family: 'Coiny', cursive;
+	text-shadow: 1px 0 0 rgba(255, 224, 204, 0.58), 1px 3px 0 rgba(99, 99, 99, 0.5), 0 5px 0 rgba(99, 99, 99, 0.5), -1px 4px 0 rgba(99, 99, 99, 0.5), -1px 0 0 rgba(99, 99, 99, 0.5), -1px -1px 0 rgba(99, 99, 99, 0.5), 0 -1px 0 rgba(99, 99, 99, 0.5), 1px -1px 0 rgba(99, 99, 99, 0.5);
 	
 }
 

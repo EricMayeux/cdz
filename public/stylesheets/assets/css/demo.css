@@ -550,21 +550,23 @@ font-size: 82% !important;
 .floux:hover .main_counter_area {
 		color:red;
 }
-@font-face {
+/*@font-face {
 	font-family: encreMousse;
-	src: url(tiza.ttf);
+	src: url(Ranchers-Regular.ttf);
 }
-
+*/
 .floux h2,.floux h3 {
-font-family: encreMousse;
-font-size: 120%;
+font-family: 'Coiny', cursive;
+font-size: 180%;
 }
 
 .floux p {
-font-family: encreMousse;
+font-family: 'Coiny', cursive;
+font-size: 119%;
 }
 
 .mousse {
-font-family: encreMousse;
+font-family: 'Coiny', cursive;
+font-size: 119%;
 }
 
