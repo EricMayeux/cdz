@@ -431,7 +431,7 @@ padding-top: 60px;
 	font-size: 43px;
 	width: 140px;
 	z-index: 3;
-	top: 270px;
+	top: 290px;
 	z-index: 3;
 }
 .blurred-container .mottoO{
@@ -466,8 +466,11 @@ padding-top: 60px;
 	font-size: 24px;
 }
 .floux h2,.floux h3 {
-font-family: encreMousse;
-font-size: 82% !important;
+font-size: 75% !important;
+text-transform: uppercase;
+font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+letter-spacing: 3px !important;
+font-weight: 800;
 }
 }
 .blurred-container .motto2 .border{
@@ -481,30 +484,7 @@ font-size: 82% !important;
     border-right: none;
 }
 
-@media (max-width: 990px){
-    .blurred-container .motto2{
-        font-size: 43px;
-        width: 402px;
-		top: 10px;
-    }
-.centred2 h2{
-	text-shadow: 0 4px 5px rgba(99, 99, 99, 0.5), 0 5px 4px rgba(99, 99, 99, 0.5);
-	text-align: center;
-	text-align: -webkit-center;
-	font-size: 130%;	
-}
-.centred3 h3{
-	text-shadow: 0 4px 5px rgba(99, 99, 99, 0.5), 0 5px 4px rgba(99, 99, 99, 0.5);
-	text-align: center;
-	text-align: -webkit-center;
-	font-size: 130%;
-}
 
-.floux h2,.floux h3 {
-font-family: encreMousse;
-font-size: 82% !important;
-}
-}
 
 .centred2 {
 	text-shadow: 0 4px 5px rgba(99, 99, 99, 0.5), 0 5px 4px rgba(99, 99, 99, 0.5);
@@ -556,8 +536,11 @@ font-size: 82% !important;
 }
 */
 .floux h2,.floux h3 {
-font-family: 'Coiny', cursive;
-font-size: 180%;
+font-size: 115%;
+text-transform: uppercase;
+font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+letter-spacing: 7px;
+font-weight: 800;
 }
 
 .floux p {
