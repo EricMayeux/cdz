@@ -1788,7 +1788,7 @@ input.ct-red + span + label + span.switch-right {
     position: relative; 
     margin-left: auto;
     margin-right: auto;
-    width: 615px;
+    width: 150%;
   }
     body > .navbar-collapse {
       width: 230px;

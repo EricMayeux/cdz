@@ -185,13 +185,16 @@ max-height: 470px !important;
     font-weight: bold;
 	font-family: 'Coiny', cursive;
 	text-shadow: 1px 0 0 rgba(255, 224, 204, 0.58), 1px 3px 0 rgba(99, 99, 99, 0.5), 0 5px 0 rgba(99, 99, 99, 0.5), -1px 4px 0 rgba(99, 99, 99, 0.5), -1px 0 0 rgba(99, 99, 99, 0.5), -1px -1px 0 rgba(99, 99, 99, 0.5), 0 -1px 0 rgba(99, 99, 99, 0.5), 1px -1px 0 rgba(99, 99, 99, 0.5);
-	
 }
 
 .pad{
 	padding: 0 0 10px 0;
 }
 @media (max-width: 768px){
+.fontitre{
+font-size:33px;
+}	
+	
 .positioned {
   position: relative; /* postulat de départ */
   top: 50%; left: 50%; /* à 50%/50% du parent référent */
