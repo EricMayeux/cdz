@@ -648,12 +648,12 @@ section#counter {
 #event .event_text {
     padding: 15px 18px 22px 18px;
     background: #eff0f2;
-		height: 346px;
+		height: 360px;
 }
 
 #event .event_item img {
     width: 100%;
-	height: 346px;
+	height: 360px;
 }
 
 #event .event_text h4 {
