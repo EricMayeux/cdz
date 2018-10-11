@@ -190,12 +190,43 @@ max-height: 470px !important;
 .pad{
 	padding: 0 0 10px 0;
 }
+
+.size18 {
+font-size: 18px;
+}
 @media (max-width: 768px){
+.size18 {
+font-size: 8px;
+}	
+	
+[type="checkbox"] + span:not(.lever):before,
+[type="checkbox"]:not(.filled-in) + span:not(.lever):after {
+  
+  width: 12px !important;
+  height: 12px !important;
+  margin-top: 2px !important;
+}	
+[type="radio"]:not(:checked) + label,
+[type="radio"]:checked + label {
+    padding-left: 15px !important;
+    line-height: 10px !important;
+    font-size: 5px !important;
+}
+
+[type="checkbox"] + span:not(.lever) {
+    padding-left: 15px !important;
+    line-height: 10px !important;
+    font-size: 5px !important;
+}
+
+	
 .fontitre{
-font-size:33px;
+font-size:24px;
+padding-bottom: 10px;
 }	
 	
 .positioned {
+  font-size: 7px;
   position: relative; /* postulat de départ */
   top: 50%; left: 50%; /* à 50%/50% du parent référent */
   transform: translate(-50%, -36%); /* décalage de 50% de sa propre taille */

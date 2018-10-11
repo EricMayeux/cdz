@@ -414,7 +414,7 @@ padding-top: 60px;
 }
 .border{
     float: left;
-    border: 5px solid rgba(255, 255, 255, 0.85);;
+    border: 5px solid rgba(255, 255, 255, 0.85);
     padding: 0px 0px;
     text-align: center;
 	box-shadow: 0 4px 5px rgba(99, 99, 99, 0.5), 0 5px 4px rgba(99, 99, 99, 0.5)
@@ -425,18 +425,31 @@ padding-top: 60px;
 .blurred-container .mottoO .no-right-border{
     border-right: none;
 }
+.topi {
+	padding-top: 218px;
+}
 
 @media (max-width: 768px){
+	
+.centred2{
+    padding-bottom: 10px !important;
+}
+	
+.centred3{
+    padding-top: 11px !important;
+	padding-bottom: 20px !important;
+}
+
 .blurred-container .motto{
 	font-size: 43px;
 	width: 140px;
 	z-index: 3;
-	top: 290px;
+	top: 230px;
 	z-index: 3;
 }
 .blurred-container .mottoO{
-	font-size: 43px;
-	width: 410px;
+	font-size: 37px;
+	width: 100%;
 	z-index: 3;
 	top: 40px;
 	z-index: 3;
@@ -449,8 +462,8 @@ padding-top: 60px;
 	  left:0;
 }
 .blurred-container .motto2{
-	font-size: 43px;
-	width: 402px;
+	font-size: 37px;
+	width: 95%;
 	top: 10px;
 }
 .centred2 h2{
@@ -466,11 +479,15 @@ padding-top: 60px;
 	font-size: 24px;
 }
 .floux h2,.floux h3 {
-font-size: 75% !important;
+font-size: 90% !important;
 text-transform: uppercase;
 font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
-letter-spacing: 3px !important;
+letter-spacing: 2px !important;
 font-weight: 800;
+}
+
+.topi {
+	padding-top: 110px !important;
 }
 }
 .blurred-container .motto2 .border{
@@ -514,7 +531,7 @@ font-weight: 800;
 
 .floux{
 	    background-color: rgba(0,17,55,0.29);
-		padding-top: 25px;
+		padding-top: 45px;
 		border: 1px solid rgba(227,228,211,0.21);
 
 }
