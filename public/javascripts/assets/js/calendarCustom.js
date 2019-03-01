@@ -17,9 +17,9 @@ var jourDeForm = new Array();
 for(var i=0; i<12; i++){
    jourDeForm[i] = new Array();
 }
-jourDeForm[janvier].push("28","29","30","31");
-jourDeForm[fevrier].push("1");
-jourDeForm[mars].push("11","12","13","14","15");
+jourDeForm[janvier].push("");
+jourDeForm[fevrier].push("");
+jourDeForm[mars].push("");
 jourDeForm[avril].push("");
 jourDeForm[mai].push("20","21","22","23","24");
 jourDeForm[juin].push("17","18","19","20","21");
@@ -53,8 +53,8 @@ var jourDeFormOut = new Array();
 for(var i=0; i<12; i++){
    jourDeFormOut[i] = new Array();
 }
-jourDeFormOut[janvier].push("7","8","9","10","11");
-jourDeFormOut[fevrier].push("");
+jourDeFormOut[janvier].push("7","8","9","10","11","28","29","30","31");
+jourDeFormOut[fevrier].push("1");
 jourDeFormOut[mars].push("");
 jourDeFormOut[avril].push("");
 jourDeFormOut[mai].push("");
@@ -73,7 +73,7 @@ for(var i=0; i<12; i++){
 }
 jourDeStageOut[janvier].push("");
 jourDeStageOut[fevrier].push("");
-jourDeStageOut[mars].push("");
+jourDeStageOut[mars].push("11","12","13","14","15");
 jourDeStageOut[avril].push("");
 jourDeStageOut[mai].push("");
 jourDeStageOut[juin].push("");
