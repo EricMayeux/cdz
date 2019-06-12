@@ -21,14 +21,14 @@ jourDeForm[janvier].push("");
 jourDeForm[fevrier].push("");
 jourDeForm[mars].push("");
 jourDeForm[avril].push("");
-jourDeForm[mai].push("20","21","22","23","24");
-jourDeForm[juin].push("17","18","19","20","21");
-jourDeForm[juillet].push("1","2","3","4","5");
+jourDeForm[mai].push("");
+jourDeForm[juin].push("13","14","15");
+jourDeForm[juillet].push("");
 jourDeForm[aout].push("");
 jourDeForm[septembre].push("");
-jourDeForm[octobre].push("");
-jourDeForm[novembre].push("");
-jourDeForm[decembre].push("");
+jourDeForm[octobre].push("7","8","9","10","11");
+jourDeForm[novembre].push("25","26","27","28","29");
+jourDeForm[decembre].push("16","17","18","19","20");
 
 //var Jour de stage, par mois
 var jourDeStage = new Array();
@@ -57,16 +57,16 @@ jourDeFormOut[janvier].push("7","8","9","10","11","28","29","30","31");
 jourDeFormOut[fevrier].push("1");
 jourDeFormOut[mars].push("");
 jourDeFormOut[avril].push("");
-jourDeFormOut[mai].push("");
+jourDeFormOut[mai].push("20","21","22","23","24");
 jourDeFormOut[juin].push("");
-jourDeFormOut[juillet].push("");
+jourDeFormOut[juillet].push("1","2","3","4","5");
 jourDeFormOut[aout].push("");
 jourDeFormOut[septembre].push("");
 jourDeFormOut[octobre].push("");
 jourDeFormOut[novembre].push("");
 jourDeFormOut[decembre].push("");
 
-//var Jour de stage déjà réservés, par mois
+//var Jour de formation annulé, par mois
 var jourDeStageOut = new Array();
 for(var i=0; i<12; i++){
    jourDeStageOut[i] = new Array();
